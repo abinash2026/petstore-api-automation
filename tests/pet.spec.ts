@@ -5,7 +5,7 @@ import {validateSchema} from "../utils/schemaValidator";
 import {petSchema} from "../utils/pet.schema";
 import { get } from "node:http";
 
-test.describe.serial("Petstore API Tests", ()=>{
+test.describe("Petstore API Tests", ()=>{
 
     /*
     test.beforeEach(async({request}) => {
